@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.button-group.space-around button {
+  margin: 0px 5px;
+}
+
+button {
+  border-radius: 4px;
+  padding: 10px 16px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  position: relative;
+  line-height: 16px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-secondary {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-custom-yellow {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.btn-custom-red {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}

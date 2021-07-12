@@ -1,0 +1,12 @@
+.timer-display {
+  width: 300px;
+  padding: 16px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.timer-display__value {
+  font-size: 24px;
+  margin: 10px 0;
+}
